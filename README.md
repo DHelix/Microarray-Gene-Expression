@@ -1,7 +1,7 @@
 # Microarray Gene Expression
 
 ## Function:
-This is R script is for extracting gene expression information from Jo's microarray data.  
+This R script is for extracting gene expression information from Jo's microarray data.  
 
 ##Usage:
 Run this script from Terminal by typing:  
