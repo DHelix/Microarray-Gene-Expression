@@ -1,6 +1,6 @@
 #!/usr/bin/Rscript
 
-# This is R script is for extracting gene expression information from Jo's microarray data.
+# This R script is for extracting gene expression information from Jo's microarray data.
 # It needs the data files present in the same folder: GeneLevelMatrix.rds
 # Run this script from Terminal by typing: ./CheckGeneExpressionLevel.R
 
