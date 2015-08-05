@@ -4,9 +4,8 @@
 # It needs the data files present in the same folder: GeneLevelMatrix.rds
 # Run this script from Terminal by typing: ./CheckGeneExpressionLevel.R
 
-
-#GeneLevel_AVGSignal = read.table("GeneLevel_AVGSignal.txt", header = TRUE, sep = "\t")
 print("Loading database...")
+#GeneLevel_AVGSignal = read.table("GeneLevel_AVGSignal.txt", header = TRUE, sep = "\t")
 #GeneLevel_AVGSignal=readRDS("GeneLevel_AVGSignal.rds")
 
 #GeneLevel.m<-t(GeneLevel_AVGSignal[, 118:ncol(GeneLevel_AVGSignal)])
