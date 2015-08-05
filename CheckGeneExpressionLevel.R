@@ -5,8 +5,6 @@
 # Run this script from Terminal by typing: ./CheckGeneExpressionLevel.R
 
 
-#setwd("/Users//labuser//Documents/PartekFormat_GeneLevel/")
-
 #GeneLevel_AVGSignal = read.table("GeneLevel_AVGSignal.txt", header = TRUE, sep = "\t")
 print("Loading database...")
 #GeneLevel_AVGSignal=readRDS("GeneLevel_AVGSignal.rds")
@@ -16,7 +14,7 @@ print("Loading database...")
 GeneLevel.m=readRDS("./GeneLevelMatrix.rds")
 print("Loading is done!")
 
-continue <- T
+continue <- TRUE
 cat("Enter your gene's name: ")
 GeneList <- readLines(file("stdin"),1)
 
